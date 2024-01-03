@@ -1,28 +1,28 @@
 import Link from "next/link";
 import { lobster } from "@/app/ui/fonts";
 
-export default function Introduccion() {
+export default function WebImages() {
   const cardImages = [
     {
-      id: 1,
-      title: "Programación",
-      href: "/introduccion/programacion",
-    },
-    {
-      id: 2,
-      title: "Artificial Intelligence",
-      href: "/introduccion/AI",
-    },
-    {
-      id: 3,
-      title: "Web Imagenes",
-      href: "/introduccion/webImages",
-    },
-    {
-      id: 4,
-      title: "Ciber Arkal",
-      href: "/introduccion/CiberArkal",
-    }
+        id: 5,
+        title: "League Of Legends Wiki",
+        href: "https://leagueoflegends.fandom.com/es/wiki/League_of_Legends_Wiki",
+      },
+      {
+        id: 19,
+        title: "Graficos vectoriales gratis",
+        href: "https://pixabay.com/es/",
+      },
+      {
+        id: 20,
+        title: "Auto Draw",
+        href: "https://autodraw.com/",
+      },
+      {
+        id: 21,
+        title: "Clean PNG",
+        href: "https://www.cleanpng.com/",
+      }
   ];
 
   return (
@@ -39,7 +39,6 @@ export default function Introduccion() {
             >
               {p.title}
             </p>
-            
           </Link>
         );
       })}

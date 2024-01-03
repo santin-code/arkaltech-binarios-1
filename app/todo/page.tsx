@@ -4,26 +4,6 @@ import { lobster } from "@/app/ui/fonts";
 export default function Introduccion() {
   const cardImages = [
     {
-      id: 1,
-      title: "Javascript Básico (Dalto)",
-      href: "https://www.youtube.com/watch?v=z95mZVUcJ-E&t=25466s&pp=ygUQamF2YXNjcmlwdCBkYWx0bw%3D%3D",
-    },
-    {
-      id: 2,
-      title: "Tailwind",
-      href: "https://tailwindcss.com/",
-    },
-    {
-      id: 3,
-      title: "Compresor de imágenes",
-      href: "https://www.iloveimg.com/es",
-    },
-    {
-      id: 4,
-      title: "Hak4u",
-      href: "https://hack4u.io/",
-    },
-    {
         id: 5,
         title: "League Of Legends Wiki",
         href: "https://leagueoflegends.fandom.com/es/wiki/League_of_Legends_Wiki",
@@ -54,34 +34,14 @@ export default function Introduccion() {
         href: "",
       },
       {
-        id: 11,
-        title: "Perplexity AI",
-        href: "https://www.perplexity.ai/",
-      },
-      {
         id: 12,
         title: "crear Robotica",
         href: "",
       },
       {
-        id: 13,
-        title: "Black Box AI",
-        href: "https://www.blackbox.ai/share/3f65254a-0e44-4a71-8ac7-21ff7d0789dc",
-      },
-      {
         id: 14,
         title: "Declarar SAT",
         href: "",
-      },
-      {
-        id: 15,
-        title: "Chat GPT",
-        href: "",
-      },
-      {
-        id: 16,
-        title: "Claves de windows para dormir",
-        href: "https://chat.openai.com/share/d1d644f8-2847-4c5e-9422-a41d26d360e8",
       },
       {
         id: 17,
