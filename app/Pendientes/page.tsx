@@ -1,48 +1,29 @@
 import Link from "next/link";
 import { lobster } from "@/app/ui/fonts";
 
-export default function Introduccion() {
+export default function Pendientes() {
   const cardImages = [
-    {
-      id: 1,
-      title: "Programación",
-      href: "/programacion",
-    },
-    {
-      id: 2,
-      title: "Artificial Intelligence",
-      href: "/AI",
-    },
-    {
-      id: 3,
-      title: "Web Imagenes",
-      href: "/webImages",
-    },
-    {
-      id: 4,
-      title: "Ciber Arkal",
-      href: "/CiberArkal",
-    },
-    {
-      id: 5,
-      title: "Fandom Games",
-      href: "/FandomGames",
-    },
-    {
-      id: 6,
-      title: "Frases/Videos/Motivacion",
-      href: "/FrasesVideos",
-    },
-    {
-      id: 7,
-      title: "Resina Epoxica /videos",
-      href: "/ResinaEpoxica",
-    },
-    {
-      id: 8,
-      title: "Pendientes",
-      href: "/Pendientes",
-    }
+      {
+        id: 1,
+        title: "Tela gruesa Cortinas Parisina centro Toluca segundo piso",
+        href: "",
+      },
+      {
+        id: 2,
+        title: "gobekli-tepe",
+        href: "",
+      },
+      {
+        id: 3,
+        title: "crear Robotica",
+        href: "",
+      },
+      {
+        id: 4,
+        title: "Declarar SAT",
+        href: "",
+      }
+      
   ];
 
   return (
@@ -59,7 +40,6 @@ export default function Introduccion() {
             >
               {p.title}
             </p>
-            
           </Link>
         );
       })}

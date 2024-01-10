@@ -1,28 +1,13 @@
 import Link from "next/link";
 import { lobster } from "@/app/ui/fonts";
 
-export default function Introduccion() {
+export default function FandomGames() {
   const cardImages = [
-    {
-      id: 1,
-      title: "Programación",
-      href: "/introduccion/programacion",
-    },
-    {
-      id: 2,
-      title: "Artificial Intelligence",
-      href: "/introduccion/AI",
-    },
-    {
-      id: 3,
-      title: "Web Imagenes",
-      href: "/introduccion/webImages",
-    },
-    {
-      id: 4,
-      title: "Ciber Arkal",
-      href: "/introduccion/CiberArkal",
-    }
+      {
+        id: 1,
+        title: "League Of Legends(Fandom)",
+        href: "https://leagueoflegends.fandom.com/es/wiki/League_of_Legends_Wiki",
+      }
   ];
 
   return (
@@ -39,7 +24,6 @@ export default function Introduccion() {
             >
               {p.title}
             </p>
-            
           </Link>
         );
       })}

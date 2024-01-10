@@ -1,48 +1,17 @@
 import Link from "next/link";
 import { lobster } from "@/app/ui/fonts";
 
-export default function Introduccion() {
+export default function FrasesVideos() {
   const cardImages = [
     {
       id: 1,
-      title: "Programación",
-      href: "/programacion",
+      title: "El miedo dura segundos",
+      href: "https://www.instagram.com/reel/Cx-btL3gaXv/?utm_source=ig_web_copy_link",
+    },{
+      id: 18,
+      title: "Hombre top video youtube",
+      href: "https://youtu.be/R4bIBA5Jtrw?feature=shared",
     },
-    {
-      id: 2,
-      title: "Artificial Intelligence",
-      href: "/AI",
-    },
-    {
-      id: 3,
-      title: "Web Imagenes",
-      href: "/webImages",
-    },
-    {
-      id: 4,
-      title: "Ciber Arkal",
-      href: "/CiberArkal",
-    },
-    {
-      id: 5,
-      title: "Fandom Games",
-      href: "/FandomGames",
-    },
-    {
-      id: 6,
-      title: "Frases/Videos/Motivacion",
-      href: "/FrasesVideos",
-    },
-    {
-      id: 7,
-      title: "Resina Epoxica /videos",
-      href: "/ResinaEpoxica",
-    },
-    {
-      id: 8,
-      title: "Pendientes",
-      href: "/Pendientes",
-    }
   ];
 
   return (
@@ -59,7 +28,6 @@ export default function Introduccion() {
             >
               {p.title}
             </p>
-            
           </Link>
         );
       })}
