@@ -24,9 +24,14 @@ export default function Programacion() {
       href: "https://hack4u.io/",
     },
       {
-        id: 21,
+        id: 5,
         title: "Clean PNG",
         href: "https://www.cleanpng.com/",
+      },
+      {
+        id: 6,
+        title: "Curso Javascript Basico (Dalto)",
+        href: "/programacion/JavascriptBasico",
       },
       
   ];
