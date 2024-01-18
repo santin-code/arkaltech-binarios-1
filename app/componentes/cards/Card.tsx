@@ -5,7 +5,7 @@ export default function Introduccion() {
   const cardImages = [
     {
       id: 1,
-      title: "Programación",
+      title: "Cursos de Programación",
       href: "/programacion",
     },
     {
