@@ -39,9 +39,20 @@ export default function Introduccion() {
 				<p>En los lenguajes como Java cuando queremos crear una variable lo que tenemos que hacer es </p>
 			</div>
 
-			<code className={`bg-white text-black text-sm p-2 ${press_start.className} `}>npm install arkal</code>
-			<p>.</p>
-			<code className={`bg-white text-red-800 text-sm p-2 ${press_start.className} `}>hora/minuto/segundo: 1:45:23</code>
+			<code className={`bg-white text-black text-xs mt-4 mb-4 p-2 ${press_start.className} `}>int numero1 = 15</code>
+			<p className='mt-4 mb-4'>en JavaScript se puede hacer de la siguiente forma</p>
+			<code className={`bg-white text-black text-xs mt-4 mb-4 p-2 ${press_start.className} `}> numero1 = 15</code>
+			<p className='mt-4 mb-4'>cuando le decimos <span className='text-cyan-400'>15</span> ya lo que hace la variable es adaptarse al dato, si le decimos <span className='text-cyan-400'> numero1 = 'dalto' </span> la variable serà un texto. </p>
+
+			<div className='mt-4 mb-4' >
+				<p><span className="text-cyan-400 font-bold">ECMASCRIPT:</span> JavaScript esta construido sobre ECMASCRIPT, en este momento están en la version 6, nosotros no podemos trabajar con versiones de ECMASCRIPT anteriores ya que el código queda obsoleto  </p>
+			</div>
+
+			<div className='mt-4 mb-4' >
+				<p><span className="text-cyan-400 font-bold">ES.NEXT (ò proxima versión de ECMASCRIPT):</span> Es un nombre dinámico para referirse a cualquier nueva versión que se este desarrollando. Las características de ECMASCRIPT NEXT son conocidas como propuestas por que la especificación aun no ha sido finalizada.  </p>
+			</div>
+
+			<code className={`bg-white text-red-800 text-xs p-2 ${press_start.className} `}>hora/minuto/segundo: 00:15:49</code>
 			
     </div>
   );
