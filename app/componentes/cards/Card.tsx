@@ -46,16 +46,16 @@ export default function Introduccion() {
   ];
 
   return (
-    <div className=" flex flex-wrap w-full mt-8 mb-16  items-center justify-center  mx-auto my-auto   md:mt-2 md:w-8/12">
+    <div className=" flex flex-wrap w-full mt-8 mb-16  items-center justify-center  mx-auto my-auto   md:mt-4 md:w-8/12">
       {cardImages.map((p) => {
         return (
           <Link
             key={p.id}
             href={p.href}
-            className="w-40 m-1 overflow-hidden flex items-center bg-gradient-to-r from-sky-500 to-indigo-500 justify-center w-5/12    border-2 border-solid border-sky-700 rounded   md:w-1/5 md:m-4 hover:bg-black transform hover:scale-105 transition duration-100 ease-in-out "
+            className="w-10/12 m-1 flex items-center bg-white  justify-center w-full rounded  hover:bg-black hover:border-white hover:border-solid hover:border-2  transform hover:scale-105 transition duration-100 ease-in-out "
           >
             <p
-              className={`  h-20 flex items-center justify-center mx-auto my-auto text-slate-200 text-1xl p-2 ${lobster.className}`}
+              className={` w-full h-auto flex items-center justify-center mx-auto my-auto text-black text-2xl p-2 hover:text-white md:text-sm ${lobster.className}`}
             >
               {p.title}
             </p>

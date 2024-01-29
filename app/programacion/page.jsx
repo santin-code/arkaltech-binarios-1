@@ -6,7 +6,7 @@ export default function Programacion() {
     {
       id: 1,
       title: "Javascript Básico (Dalto)",
-      href: "https://www.youtube.com/watch?v=z95mZVUcJ-E&t=25466s&pp=ygUQamF2YXNjcmlwdCBkYWx0bw%3D%3D",
+      href: "https://docs.google.com/document/d/1zZFN05vJCGG9oQqSzlfDdARSsyUhDeU0V6aYBEN3PXA/edit?pli=1",
     },
     {
       id: 2,
@@ -14,25 +14,10 @@ export default function Programacion() {
       href: "https://tailwindcss.com/",
     },
     {
-      id: 3,
-      title: "Compresor de imágenes",
-      href: "https://www.iloveimg.com/es",
-    },
-    {
       id: 4,
       title: "Hak4u",
       href: "https://hack4u.io/",
-    },
-      {
-        id: 5,
-        title: "Clean PNG",
-        href: "https://www.cleanpng.com/",
-      },
-      {
-        id: 6,
-        title: "Curso Javascript Basico (Dalto)",
-        href: "/programacion/JavascriptBasico",
-      },
+    }
       
   ];
 
@@ -43,7 +28,7 @@ export default function Programacion() {
           <Link
             key={p.id}
             href={p.href}
-            className="w-40 m-1 overflow-hidden flex items-center bg-gradient-to-r from-sky-500 to-indigo-500 justify-center w-5/12    border-2 border-solid border-sky-700 rounded   md:w-1/5 md:m-4 hover:bg-black transform hover:scale-105 transition duration-100 ease-in-out "
+            className="w-40 m-1 overflow-hidden flex items-center bg-gradient-to-r from-sky-500 to-indigo-500 justify-center w-5/12    border-2 border-solid border-sky-700 rounded   md:w-1/5 md:m-4 hover:bg-black transform hover:scale-105 transition duration-100 ease-in-out _blank "
           >
             <p
               className={`  h-20 flex items-center justify-center mx-auto my-auto text-slate-200 text-1xl p-2 ${lobster.className}`}
