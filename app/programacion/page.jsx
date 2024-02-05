@@ -16,7 +16,7 @@ export default function Programacion() {
     {
       id: 4,
       title: "Hak4u",
-      href: "https://hack4u.io/",
+      href: "https://docs.google.com/document/d/1lf4dq0ZIomsIditKuQ_auhIynD0rbund4yqeqa6TC9A/edit",
     }
       
   ];
