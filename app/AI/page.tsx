@@ -4,37 +4,52 @@ import { lobster } from "@/app/ui/fonts";
 export default function Introduccion() {
   const cardImages = [
     {
-      id: 3,
+      id: 1,
       title: "Compresor de imágenes",
       href: "https://www.iloveimg.com/es",
     },
       {
-        id: 11,
+        id: 2,
         title: "Perplexity AI",
         href: "https://www.perplexity.ai/",
       },
       {
-        id: 13,
+        id: 3,
         title: "Black Box AI",
         href: "https://www.blackbox.ai/share/3f65254a-0e44-4a71-8ac7-21ff7d0789dc",
       },
       {
-        id: 15,
+        id: 4,
         title: "Chat GPT",
         href: "https://chat.openai.com/",
       },
       {
-        id: 16,
+        id: 5,
         title: "Claves de windows para dormir",
         href: "https://chat.openai.com/share/d1d644f8-2847-4c5e-9422-a41d26d360e8",
       },
      {
-        id: 20,
+        id: 6,
         title: "Auto Draw",
         href: "https://autodraw.com/",
       },
       {
-        id: 21,
+        id: 7,
+        title: "Clean PNG",
+        href: "https://www.cleanpng.com/",
+      },
+      {
+        id: 8,
+        title: "Clean PNG",
+        href: "https://www.cleanpng.com/",
+      },
+      {
+        id: 9,
+        title: "Clean PNG",
+        href: "https://www.cleanpng.com/",
+      },
+      {
+        id: 10,
         title: "Clean PNG",
         href: "https://www.cleanpng.com/",
       },

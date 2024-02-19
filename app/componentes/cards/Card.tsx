@@ -42,7 +42,12 @@ export default function Introduccion() {
       id: 8,
       title: "Pendientes",
       href: "/Pendientes",
-    }
+    },{
+      id: 9,
+      title: "Porcentaje",
+      href: "/Porcentaje",
+    },
+
   ];
 
   return (
