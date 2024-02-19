@@ -8,7 +8,7 @@ export default function Porcentaje() {
   const [inputValue, setInputValue] = useState('');
   const [porcentaje, setPorcentaje] = useState(0);
 
-  const handleChange = (e) =>{
+  const handleChange = (e: { target: { value: any; }; }) =>{
     const value = e.target.value;
     setInputValue(value)
 
