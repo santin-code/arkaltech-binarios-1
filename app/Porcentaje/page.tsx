@@ -12,7 +12,7 @@ export default function Porcentaje() {
     const value = e.target.value;
     setInputValue(value)
 
-    const calcularPorcentaje = (value * 16.015) / 100; 
+    const calcularPorcentaje = (value * 16) / 100; 
     setPorcentaje(calcularPorcentaje)
   }
 
