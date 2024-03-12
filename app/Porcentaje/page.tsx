@@ -17,9 +17,10 @@ export default function Porcentaje() {
   }
 
   return (
-    <div className=" flex flex-wrap w-full mt-8 mb-16  items-center justify-center  mx-auto my-auto   md:mt-2 md:w-8/12">
-      <input type="number" value={inputValue} onChange={handleChange} />
-      <p className="text-white" >el porcentaje de {inputValue} es {porcentaje}</p>
+    <div className=" flex flex-col w-full   items-center justify-center  mx-auto my-auto  md:w-8/12">
+      <p className="text-white my-4" >CALCULADORA DE PORCENTAJE DE IVA</p>
+      <input type="number" value={inputValue} onChange={handleChange} className="rounded bg-#def border-0 outline-none bg-cyan-200 " />
+      <p className="text-white mt-4" >el 16% de {inputValue} es {porcentaje}</p>
     </div>
   );
 }
