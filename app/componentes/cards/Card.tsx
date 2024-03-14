@@ -6,7 +6,7 @@ export default function Introduccion() {
     {
       id: 1,
       title: "Cursos de Programación",
-      href: "/programacion",
+      href: "/Cursos",
     },
     {
       id: 2,
@@ -44,9 +44,13 @@ export default function Introduccion() {
       href: "/Pendientes",
     },{
       id: 9,
+      title: "Programación",
+      href: "/Programacion"
+    },{
+      id: 10,
       title: "Porcentaje",
       href: "/Porcentaje",
-    },
+    }
 
   ];
 

@@ -27,7 +27,7 @@ export default function ResinaEpoxica() {
             className=" w-40 h-20 m-1 overflow-hidden flex items-center bg-white justify-center w-5/12   border-2 border-solid border-sky-700 rounded   md:w-2/5  hover:bg-black transform hover:scale-105 transition duration-100 ease-in-out "
           >
             <p
-              className={` h-full w-full  flex items-center justify-center mx-auto my-auto text-black text-1xl hover:text-white ${lobster.className} `}
+              className={` h-full w-full text-center flex items-center justify-center mx-auto my-auto text-black text-1xl hover:text-white ${lobster.className} `}
             >
               {p.title}
             </p>
