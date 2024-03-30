@@ -5,18 +5,13 @@ export default function Programacion() {
   const cardImages = [
     {
       id: 1,
-      title: "Dalto Javascript",
-      href: "/Cursos/DaltoJavaScript",
+      title: "Video 1 (Primera Parte)",
+      href: "https://docs.google.com/document/d/1zZFN05vJCGG9oQqSzlfDdARSsyUhDeU0V6aYBEN3PXA/edit?pli=1",
     },
     {
       id: 2,
-      title: "Tailwind",
-      href: "https://tailwindcss.com/",
-    },
-    {
-      id: 4,
-      title: "Hak4u",
-      href: "https://docs.google.com/document/d/1lf4dq0ZIomsIditKuQ_auhIynD0rbund4yqeqa6TC9A/edit",
+      title: "Video 1 (Segunda Parte)",
+      href: "https://docs.google.com/document/d/1A4rM4xRVmgHBFAJC5StJKoyv16IvbyjqBK3Tk7giggc/edit",
     }
       
   ];
