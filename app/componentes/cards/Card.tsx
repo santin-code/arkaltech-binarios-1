@@ -50,7 +50,7 @@ export default function Introduccion() {
       id: 10,
       title: "Porcentaje",
       href: "/Porcentaje",
-    }
+    },
 
   ];
 
