@@ -1,22 +1,61 @@
 
-import './precios.module.css'
 
 export default function Precios() {
   const precios = [{
     id: 1,
-    nombreProducto: 'Silicon Liquido Pelican 100ML ',
+    nombreProducto: 'Silicon Liquido Pelican 100ML (pieza) ',
     precioTienda: 18.28,
     precioPublico: 22,
   }, {
     id: 2,
-    nombreProducto: 'Silicon Liquido Pelican 250ML ',
+    nombreProducto: 'Silicon Liquido Pelican 250ML (pieza) ',
     precioTienda: 39.41,
     precioPublico: 44,
   },{
     id: 3,
-    nombreProducto: 'Ficha De Trabajo (5x8) ',
-    precioTienda: 18.28,
-    precioPublico: 22,
+    nombreProducto: 'Ficha De Trabajo (5x8 pulgadas) ',
+    precioTienda: 25.46,
+    precioPublico:` 30 PQ o (3x $1)`,
+  },{
+    id: 4,
+    nombreProducto: 'Ficha Bibliografica (3x5 pulgadas) ',
+    precioTienda: 9.66,
+    precioPublico:` 15 PQ o (5x $1)`,
+  },{
+    id: 5,
+    nombreProducto: 'Clip Tropicalizado #1 (caja) ',
+    precioTienda: 13.52,
+    precioPublico:` 16 Caja o (5x $1)`,
+  },{
+    id: 6,
+    nombreProducto: 'Broche Baco [caja (8cm)] ',
+    precioTienda: '73.24',
+    precioPublico:'3 (pieza)',
+  },{
+    id: 7,
+    nombreProducto: 'Grapa Standard SMART (5000 pz) ',
+    precioTienda: '19.91',
+    precioPublico:'3 (x tira)',
+  },{
+    id: 8,
+    nombreProducto: 'Marcador Permanente Baco (negro c/12pz)',
+    precioTienda: '190.82',
+    precioPublico:'18 (pieza)',
+  },{
+    id: 9,
+    nombreProducto: 'Goma Copito [caja (20pz)] ',
+    precioTienda: '46',
+    precioPublico:'4 (pieza)',
+  },{
+    id: 10,
+    nombreProducto: 'Goma Migajon M20 ',
+    precioTienda: '89.73',
+    precioPublico:'5 (pieza)',
+  },{
+    id: 11,
+    nombreProducto: 'Folder Costilla c/4',
+    precioTienda: '38.89',
+    precioPublico:'12 (pieza)',
   }]
   return (
     <>
