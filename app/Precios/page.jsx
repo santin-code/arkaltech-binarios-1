@@ -70,7 +70,7 @@ export default function Precios() {
     id: 14,
     nombreProducto: 'Plumon Aquarelo Junior (AZOR 24 pzs) ',
     precioTienda: '103.06',
-    precioPublico:'6 (pieza) 90 paquete',
+    precioPublico:'6 (pieza) 115 paquete',
   }
   ]
   return (
