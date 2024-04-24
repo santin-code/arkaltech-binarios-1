@@ -56,7 +56,23 @@ export default function Precios() {
     nombreProducto: 'Folder Costilla c/4',
     precioTienda: '38.89',
     precioPublico:'12 (pieza)',
-  }]
+  },{
+    id: 12,
+    nombreProducto: 'Marcador Pelikan (Colorella 10 pzs) ',
+    precioTienda: '85.05',
+    precioPublico:'10 (pieza)',
+  },{
+    id: 13,
+    nombreProducto: 'Plumon Pelikan (Markana Twist 24 pzs) ',
+    precioTienda: '74.91',
+    precioPublico:'5 (pieza) 90 paquete',
+  },{
+    id: 14,
+    nombreProducto: 'Plumon Aquarelo Junior (AZOR 24 pzs) ',
+    precioTienda: '103.06',
+    precioPublico:'6 (pieza) 90 paquete',
+  }
+  ]
   return (
     <>
       <div className='text-white text-xs  w-11/12 border-slate-200 border  mt-5 my-auto mx-auto md:text-base md:w-8/12 '>
