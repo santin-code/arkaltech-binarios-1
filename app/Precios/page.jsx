@@ -71,6 +71,11 @@ export default function Precios() {
     nombreProducto: 'Plumon Aquarelo Junior (AZOR 24 pzs) ',
     precioTienda: '103.06',
     precioPublico:'6 (pieza) 115 paquete',
+  },{
+    id: 15,
+    nombreProducto: 'Silicon delgado 1kg (barras)',
+    precioTienda: '123.40',
+    precioPublico:'2.5 (pieza)',
   }
   ]
   return (
