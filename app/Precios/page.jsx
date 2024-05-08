@@ -43,39 +43,64 @@ export default function Precios() {
     precioPublico:'18 (pieza)',
   },{
     id: 9,
+    nombreProducto: 'Marcador Permanente Tatoo (negro c/10pz)',
+    precioTienda: '96.01',
+    precioPublico:'12 (pieza)',
+  },{
+    id: 10,
     nombreProducto: 'Goma Copito [caja (20pz)] ',
     precioTienda: '46',
     precioPublico:'4 (pieza)',
   },{
-    id: 10,
+    id: 11,
+    nombreProducto: 'MARC DUO NEG MCKIE c/12 (plumon zebra doble punta permanente)',
+    precioTienda: '254.02',
+    precioPublico:'23 (pieza)',
+  },{
+    id: 12,
     nombreProducto: 'Goma Migajon M20 ',
     precioTienda: '89.73',
     precioPublico:'5 (pieza)',
   },{
-    id: 11,
+    id: 13,
     nombreProducto: 'Folder Costilla c/4',
     precioTienda: '38.89',
     precioPublico:'12 (pieza)',
   },{
-    id: 12,
+    id: 14,
     nombreProducto: 'Marcador Pelikan (Colorella 10 pzs) ',
     precioTienda: '85.05',
     precioPublico:'10 (pieza)',
   },{
-    id: 13,
+    id: 15,
     nombreProducto: 'Plumon Pelikan (Markana Twist 24 pzs) ',
-    precioTienda: '74.91',
-    precioPublico:'5 (pieza) 90 paquete',
+    precioTienda: '75.71',
+    precioPublico:'90 paquete',
   },{
-    id: 14,
+    id: 16,
     nombreProducto: 'Plumon Aquarelo Junior (AZOR 24 pzs) ',
     precioTienda: '103.06',
     precioPublico:'6 (pieza) 115 paquete',
   },{
-    id: 15,
+    id: 17,
     nombreProducto: 'Silicon delgado 1kg (barras)',
     precioTienda: '123.40',
     precioPublico:'2.5 (pieza)',
+  },{
+    id: 18,
+    nombreProducto: 'Cartulina Blanca c/100',
+    precioTienda: '208.8',
+    precioPublico:'4 (pieza)',
+  },{
+    id: 19,
+    nombreProducto: 'Folder Oficio Crema c/100',
+    precioTienda: '187.96',
+    precioPublico:'3 (pieza)',
+  },{
+    id: 20,
+    nombreProducto: 'PEG ADH DIXON 36G c/12',
+    precioTienda: '252.49',
+    precioPublico:'23 (pieza)',
   }
   ]
   return (
