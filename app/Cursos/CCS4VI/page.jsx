@@ -1,28 +1,14 @@
 import Link from "next/link";
 import { lobster } from "@/app/ui/fonts";
 
-export default function Programacion() {
+export default function CCSS4VI() {
   const cardImages = [
     {
       id: 1,
-      title: "Dalto Javascript",
-      href: "/Cursos/DaltoJavaScript",
-    },
-    {
-      id: 2,
-      title: "Tailwind",
-      href: "https://tailwindcss.com/",
-    },
-    {
-      id: 4,
-      title: "Hak4u (Text)",
-      href: "https://docs.google.com/document/d/1lf4dq0ZIomsIditKuQ_auhIynD0rbund4yqeqa6TC9A/edit",
-    },
-    {
-      id: 5,
-      title: "CCS4VI (VIDEO)",
-      href: "/Cursos/CCS4VI",
-    },
+      title: "Nate Grntile (Introduccion a linux) ",
+      href: "/Cursos/CCS4VI/IntLinux",
+    }
+      
   ];
 
   return (
