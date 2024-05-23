@@ -6,7 +6,7 @@ export default function CCSS4VI() {
     {
       id: 1,
       title: "1",
-      href: "/Cursos/DaltoJavaScript",
+      href: "https://disk.yandex.com/i/-4gqExHH3yeu_g",
     }
       
   ];
