@@ -27,6 +27,11 @@ export default function Precios() {
     precioTienda: 13.52,
     precioPublico:` 16 Caja o (5x $1)`,
   },{
+    id: 5,
+    nombreProducto: 'Clip Tropicalizado #2 (caja) ',
+    precioTienda: 12.11,
+    precioPublico:` 16 Caja o (5x $1)`,
+  },{
     id: 6,
     nombreProducto: 'Broche Baco [caja (8cm)] ',
     precioTienda: '73.24',
@@ -101,6 +106,11 @@ export default function Precios() {
     nombreProducto: 'PEG ADH DIXON 36G c/12',
     precioTienda: '252.49',
     precioPublico:'23 (pieza)',
+  },{
+    id: 21,
+    nombreProducto: 'Mica Protectora de Hojas (protector de hojas)',
+    precioTienda: '90.06',
+    precioPublico:'2 (pieza)',
   }
   ]
   return (
