@@ -23,6 +23,11 @@ export default function Programacion() {
       title: "CCS4VI (VIDEO)",
       href: "/Cursos/CCS4VI",
     },
+    {
+      id: 6,
+      title: "Python (udemy)",
+      href: "https://www.udemy.com/course/100-days-of-code/learn/lecture/23103754#overview",
+    },
   ];
 
   return (
