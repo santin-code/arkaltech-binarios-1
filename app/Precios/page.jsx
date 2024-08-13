@@ -89,7 +89,7 @@ export default function Precios() {
   },{
     id: 17,
     nombreProducto: 'Silicon delgado 1kg (barras)',
-    precioTienda: '123.40',
+    precioTienda: '137.12',
     precioPublico:'2.5 (pieza)',
   },{
     id: 18,
