@@ -111,6 +111,11 @@ export default function Precios() {
     nombreProducto: 'Mica Protectora de Hojas (protector de hojas)',
     precioTienda: '90.06',
     precioPublico:'2 (pieza)',
+  },{
+    id: 22,
+    nombreProducto: 'opalina gruesa',
+    precioTienda: '142.20',
+    precioPublico:'2.5 (pieza)',
   }
   ]
   return (
