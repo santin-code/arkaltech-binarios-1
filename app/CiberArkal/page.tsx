@@ -49,6 +49,10 @@ export default function CiberArkal() {
         id: 10,
         title: "Plantillas Poliedros (PDF)",
         href: "https://drive.google.com/file/d/1QIWuFiu-aAfvPNq9jf66Rf02Ql4JJqTl/view?usp=sharing",
+      },{
+        id: 11,
+        title: "Himno Nacional Mexicano y del EM",
+        href: "https://docs.google.com/document/d/1dvZqqkwraldc-9NEyeqavsGgfA6RQ4Ij/edit?pli=1",
       }
   ];
 
