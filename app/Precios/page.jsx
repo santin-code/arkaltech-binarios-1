@@ -107,6 +107,11 @@ export default function Precios() {
     precioTienda: '252.49',
     precioPublico:'23 (pieza)',
   },{
+    id: 20.1,
+    nombreProducto: 'PEG ADH DIXON 8G c/30',
+    precioTienda: '185.19',
+    precioPublico:'9 (pieza)',
+  },{
     id: 21,
     nombreProducto: 'Mica Protectora de Hojas (protector de hojas)',
     precioTienda: '90.06',
@@ -116,6 +121,26 @@ export default function Precios() {
     nombreProducto: 'opalina gruesa',
     precioTienda: '142.20',
     precioPublico:'2.5 (pieza)',
+  },{
+    id: 23,
+    nombreProducto: 'Papel Cascaron 1/8',
+    precioTienda: '4.54',
+    precioPublico:'7 (pieza)',
+  },{
+    id: 24,
+    nombreProducto: 'Papel Cascaron 1/4',
+    precioTienda: '9.10',
+    precioPublico:'12 (pieza)',
+  },{
+    id: 25,
+    nombreProducto: 'Plastilina c/10 barras ',
+    precioTienda: '10.79',
+    precioPublico:'14 (pieza)',
+  },{
+    id: 26,
+    nombreProducto: 'Papel Cascaron 1/4',
+    precioTienda: '4.54',
+    precioPublico:'7 (pieza)',
   }
   ]
   return (
