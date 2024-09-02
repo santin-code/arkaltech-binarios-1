@@ -79,13 +79,13 @@ export default function Precios() {
   },{
     id: 15,
     nombreProducto: 'Plumon Pelikan (Markana Twist 24 pzs) ',
-    precioTienda: '75.71',
-    precioPublico:'90 paquete',
+    precioTienda: '79.7',
+    precioPublico:'95 paquete',
   },{
     id: 16,
     nombreProducto: 'Plumon Aquarelo Junior (AZOR 24 pzs) ',
-    precioTienda: '103.06',
-    precioPublico:'6 (pieza) 115 paquete',
+    precioTienda: '98.10',
+    precioPublico:'115 paquete',
   },{
     id: 17,
     nombreProducto: 'Silicon delgado 1kg (barras)',
@@ -186,6 +186,21 @@ export default function Precios() {
     nombreProducto: 'folder sobre bolsa c/rondana Oficio',
     precioTienda: '16.14',
     precioPublico:'19 (pieza)',
+  },{
+    id: 36,
+    nombreProducto: 'Adhesiva Diurex .18 x 33',
+    precioTienda: '8.29',
+    precioPublico:'12 (pieza)',
+  },{
+    id: 37,
+    nombreProducto: 'Adhesiva Diurex .18 x 33',
+    precioTienda: '8.29',
+    precioPublico:'12 (pieza)',
+  },{
+    id: 38,
+    nombreProducto: 'Lapicero de gel c/4  (boligrafo stick fash) ',
+    precioTienda: '27.6',
+    precioPublico:'32 (pieza)',
   }
   ]
   return (
