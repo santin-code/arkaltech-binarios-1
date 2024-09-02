@@ -105,7 +105,7 @@ export default function Precios() {
     id: 20,
     nombreProducto: 'PEG ADH DIXON 36G c/12',
     precioTienda: '252.49',
-    precioPublico:'23 (pieza)',
+    precioPublico:'24 (pieza)',
   },{
     id: 20.1,
     nombreProducto: 'PEG ADH DIXON 8G c/30',
@@ -141,6 +141,51 @@ export default function Precios() {
     nombreProducto: 'Papel Cascaron 1/4',
     precioTienda: '4.54',
     precioPublico:'7 (pieza)',
+  },{
+    id: 27,
+    nombreProducto: 'Bicolor Hex delgado c/50',
+    precioTienda: '149.87',
+    precioPublico:'5 (pieza)',
+  },{
+    id: 28,
+    nombreProducto: 'Etiquetas Tamaño Carta c/25',
+    precioTienda: '65.46',
+    precioPublico:'5 (pieza)',
+  },{
+    id: 29,
+    nombreProducto: 'Tijera Soft 21cm ',
+    precioTienda: '51.53',
+    precioPublico:'57 (pieza)',
+  },{
+    id: 30,
+    nombreProducto: 'Tijera Smarty Pekes" ',
+    precioTienda: '9.5',
+    precioPublico:'12 (pieza)',
+  },{
+    id: 31,
+    nombreProducto: 'Tijera Basic Pro 5" ',
+    precioTienda: '11.61',
+    precioPublico:'15 (pieza)',
+  },{
+    id: 32,
+    nombreProducto: 'Pastas p/engargolar lisa',
+    precioTienda: '214.5',
+    precioPublico:'6 (pieza)',
+  },{
+    id: 33,
+    nombreProducto: 'Pastas p/engargolar transparente',
+    precioTienda: '173.63',
+    precioPublico:'5 (pieza)',
+  },{
+    id: 34,
+    nombreProducto: 'folder sobre bolsa c/rondana Carta',
+    precioTienda: '14.12',
+    precioPublico:'17 (pieza)',
+  },{
+    id: 35,
+    nombreProducto: 'folder sobre bolsa c/rondana Oficio',
+    precioTienda: '16.14',
+    precioPublico:'19 (pieza)',
   }
   ]
   return (
