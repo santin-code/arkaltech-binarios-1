@@ -19,7 +19,7 @@ export default function Precios() {
   },{
     id: 4,
     nombreProducto: 'Ficha Bibliografica (3x5 pulgadas) ',
-    precioTienda: 9.66,
+    precioTienda: 10.28,
     precioPublico:` 15 PQ o (5x $1)`,
   },{
     id: 5,
@@ -27,7 +27,7 @@ export default function Precios() {
     precioTienda: 13.52,
     precioPublico:` 16 Caja o (5x $1)`,
   },{
-    id: 5,
+    id: 5.1,
     nombreProducto: 'Clip Tropicalizado #2 (caja) ',
     precioTienda: 12.11,
     precioPublico:` 16 Caja o (5x $1)`,
@@ -96,6 +96,11 @@ export default function Precios() {
     nombreProducto: 'Cartulina Blanca c/100',
     precioTienda: '208.8',
     precioPublico:'4 (pieza)',
+  },{
+    id: 18.1,
+    nombreProducto: 'Cartulina de color ',
+    precioTienda: 'entre 6.08 & 1.82',
+    precioPublico:'7 (pieza)',
   },{
     id: 19,
     nombreProducto: 'Folder Oficio Crema c/100',
@@ -205,9 +210,10 @@ export default function Precios() {
   ]
   return (
     <>
-      <div className='text-white text-xs  w-11/12 border-slate-200 border  mt-5 my-auto mx-auto md:text-base md:w-8/12 '>
+      <div className='text-white text-xs  w-11/12 border-slate-200 border mb-20 mt-5 my-auto mx-auto md:text-base md:w-8/12 '>
         <div className='flex'>
-          <p className='w-1/2 border-slate-200 border'>Producto</p>
+          {/* corregir el width y height del titulo  "producto" */}
+          <p className='w-[13rem] md:w-[30rem] border-slate-200 border'>Producto</p>
           <div className='border  border-slate-200 w-1/2 flex'>
             <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p>
             <p className='w-1/2 '>Precio Publico</p>
@@ -217,6 +223,7 @@ export default function Precios() {
           precios.map((p) => {
             return (
               <div key={p.id} className='flex'>
+                <p className=" font-bold flex items-center justify-center border border-slate-200 w-[30px]">{p.id}</p>
                 <p className='w-1/2 border-slate-200 border'>{p.nombreProducto}</p>
                 <div className='border  border-slate-200 w-1/2 flex'>
                   <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p>
