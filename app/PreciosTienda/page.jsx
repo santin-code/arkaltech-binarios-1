@@ -5,7 +5,7 @@ export default function Precios() {
   const precios = [{
     id: id++,
     nombreProducto: 'Silicon Liquido Pelican 100ML (pieza) ',
-    precioTienda: 19.44,
+    precioTienda: 18.28,
     precioPublico: 22,
   }, {
     id: id++,
@@ -54,44 +54,29 @@ export default function Precios() {
     precioPublico:'12 (pieza)',
   },{
     id: id++,
-    nombreProducto: 'MARC DUO NEG MCKIE c/12 (plumon zebra doble punta permanente )',
-    precioTienda: '254.02',
-    precioPublico:'23 (pieza)',
-  },{
-    id: id++,
     nombreProducto: 'Goma Copito [caja (20pz)] ',
     precioTienda: '46',
     precioPublico:'4 (pieza)',
   },{
     id: id++,
-    nombreProducto: 'Goma "CHICA" pelikan (pelikid)',
-    precioTienda: '60.9 (bote c/30)',
-    precioPublico:'3 (pieza)',
+    nombreProducto: 'MARC DUO NEG MCKIE c/12 (plumon zebra doble punta permanente)',
+    precioTienda: '254.02',
+    precioPublico:'23 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Goma Migajon M20 ',
     precioTienda: '89.73',
-    precioPublico:'6 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Sacapuntas c/ goma',
-    precioTienda: '121.91 (bote c/36)',
     precioPublico:'5 (pieza)',
   },{
     id: id++,
-    nombreProducto: 'Folder costilla',
-    precioTienda: '41.37 PQ c/5',
+    nombreProducto: 'Folder Costilla c/4',
+    precioTienda: '38.89',
     precioPublico:'12 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Marcador Pelikan (Colorella 10 pzs) ',
     precioTienda: '85.05',
     precioPublico:'10 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Marcador MAGISTRAL (PIZARRON) ',
-    precioTienda: '219.41 (caja c/12)',
-    precioPublico:'20 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Plumon Pelikan (Markana Twist 24 pzs) ',
@@ -169,6 +154,11 @@ export default function Precios() {
     precioPublico:'5 (pieza)',
   },{
     id: id++,
+    nombreProducto: 'Tijera Soft 21cm ',
+    precioTienda: '51.53',
+    precioPublico:'57 (pieza)',
+  },{
+    id: id++,
     nombreProducto: 'Tijera Smarty Pekes" ',
     precioTienda: '9.5',
     precioPublico:'12 (pieza)',
@@ -177,16 +167,6 @@ export default function Precios() {
     nombreProducto: 'Tijera Basic Pro 5" ',
     precioTienda: '11.61',
     precioPublico:'15 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Tijera "MEDIANA" Soft 17cm ',
-    precioTienda: '28.76',
-    precioPublico:'32 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Tijera "GRANDE" Soft 21cm ',
-    precioTienda: '51.53',
-    precioPublico:'57 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Pastas p/engargolar lisa',
@@ -214,49 +194,9 @@ export default function Precios() {
     precioPublico:'12 (pieza)',
   },{
     id: id++,
-    nombreProducto: 'Adhesiva Diurex .12 x 10 (chico)',
-    precioTienda: '72.97',
-    precioPublico:'3 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Cinta canela (chica.48mmx50m)',
-    precioTienda: '78.6',
-    precioPublico:'6 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Cinta transparente [canela] (chica.48mmx50m)',
-    precioTienda: '78.6',
-    precioPublico:'6 (pieza)',
-  },{
-    id: id++,
     nombreProducto: 'Lapicero de gel c/4  (boligrafo stick fash) ',
     precioTienda: '27.6',
     precioPublico:'32 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: `Corrector "BROCHA" SMART office`,
-    precioTienda: '88.8 (caja)',
-    precioPublico:'12 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: `Corrector "PLUMA" SMART office`,
-    precioTienda: '152.38 (caja)',
-    precioPublico:'17 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Goma "CHICA" pelikan (pelikid)',
-    precioTienda: '60.9 (bote c/30)',
-    precioPublico:'3 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Hoja isometrica',
-    precioTienda: '21.2 block',
-    precioPublico:'1 (pieza)',
-  },{
-    id: id++,
-    nombreProducto: 'Hoja albanene',
-    precioTienda: '41.56',
-    precioPublico:'2 (pieza)',
   }
   ]
   return (
