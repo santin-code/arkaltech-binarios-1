@@ -84,6 +84,11 @@ export default function Precios() {
     precioPublico:'12 (pieza)',
   },{
     id: id++,
+    nombreProducto: 'Folder bolsa de "PAPEL" ( sobre bolsa  )',
+    precioTienda: '24.98 PQ c/5', 
+    precioPublico:'7 (pieza)',
+  },{
+    id: id++,
     nombreProducto: 'Marcador Pelikan (Colorella 10 pzs) ',
     precioTienda: '85.05',
     precioPublico:'10 (pieza)',
