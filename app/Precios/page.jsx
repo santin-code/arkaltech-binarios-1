@@ -265,8 +265,18 @@ export default function Precios() {
   },{
     id: id++,
     nombreProducto: 'Lapiz Maped Pastel',
-    precioTienda: '',
-    precioPublico:'2 (pieza)',
+    precioTienda: '252.19',
+    precioPublico:'5 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Libro para colorear (iluminar)',
+    precioTienda: '5.33',
+    precioPublico:'8 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Acuarela pelikan 12col',
+    precioTienda: '12.40',
+    precioPublico:'15 (pieza)',
   }
   ]
   return (
