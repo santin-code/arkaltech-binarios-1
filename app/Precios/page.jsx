@@ -262,6 +262,11 @@ export default function Precios() {
     nombreProducto: 'Hoja albanene',
     precioTienda: '41.56',
     precioPublico:'2 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Lapiz Maped Pastel',
+    precioTienda: '',
+    precioPublico:'2 (pieza)',
   }
   ]
   return (
