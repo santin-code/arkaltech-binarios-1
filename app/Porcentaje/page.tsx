@@ -5,15 +5,16 @@ import { lobster } from "@/app/ui/fonts";
 import { useState } from "react";
 
 export default function Porcentaje() {
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState(0);
   const [porcentaje, setPorcentaje] = useState(0);
 
   const handleChange = (e: { target: { value: any; }; }) =>{
-    const value = e.target.value;
+    const value = Number(e.target.value);
     setInputValue(value)
 
-    const calcularPorcentaje = (value * 16) / 100; 
-    setPorcentaje(calcularPorcentaje)
+    const calcularPorcentaje = Number((value * 16) / 100); 
+    const precioConIva = (value + calcularPorcentaje);
+    setPorcentaje(precioConIva)
   }
 
   return (
