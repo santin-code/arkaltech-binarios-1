@@ -90,8 +90,8 @@ export default function Precios() {
   },{
     id: id++,
     nombreProducto: 'Marcador Pelikan (Colorella 10 pzs) ',
-    precioTienda: '85.05',
-    precioPublico:'10 (pieza)',
+    precioTienda: '90.48',
+    precioPublico:'12 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Marcador MAGISTRAL (PIZARRON) ',
@@ -107,6 +107,31 @@ export default function Precios() {
     nombreProducto: 'Plumon Aquarelo Junior (AZOR 24 pzs) ',
     precioTienda: '98.10',
     precioPublico:'115 paquete',
+  },{
+    id: id++,
+    nombreProducto: 'Marcatexto Sharpie pq c/12',
+    precioTienda: '142.42',
+    precioPublico:'15 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Transportador 12cm (chico)',
+    precioTienda: '125.65 Pq c/25',
+    precioPublico:'7 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Transportador 15cm (grande)',
+    precioTienda: '202.29 Pq c/25',
+    precioPublico:'11 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Regla de plastico FLEXIBLE',
+    precioTienda: '12.11',
+    precioPublico:'16 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Regla de plastico NORMAL 30cm',
+    precioTienda: '5.51',
+    precioPublico:'8 pieza',
   },{
     id: id++,
     nombreProducto: 'Silicon delgado 1kg (barras)',
@@ -162,6 +187,11 @@ export default function Precios() {
     nombreProducto: 'Plastilina c/10 barras ',
     precioTienda: '10.79',
     precioPublico:'14 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Plastilina 1 Barra 180g Marqueta Smarty',
+    precioTienda: '8.46',
+    precioPublico:'12 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Bicolor Hex delgado c/50',
@@ -277,6 +307,21 @@ export default function Precios() {
     nombreProducto: 'Acuarela pelikan 12col',
     precioTienda: '12.40',
     precioPublico:'15 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Papel bond (blanco | cuadro)',
+    precioTienda: '(1.78 | 2.72)',
+    precioPublico:'4 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Foamy (normal)',
+    precioTienda: '41.62 Pq c/24',
+    precioPublico:'3 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Foamy con diamantina (adiamantado, endiamantado)',
+    precioTienda: '24.10 Pq c/5',
+    precioPublico:'6 pieza',
   }
   ]
   return (
@@ -286,7 +331,7 @@ export default function Precios() {
           {/* corregir el width y height del titulo  "producto" */}
           <p className='w-[13rem] md:w-[30rem] border-slate-200 border'>Producto</p>
           <div className='border  border-slate-200 w-1/2 flex'>
-            {/* <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p> */}
+            <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p>
             <p className='w-1/2 '>Precio Publico</p>
           </div>
         </div>
@@ -297,7 +342,7 @@ export default function Precios() {
                 <p className=" font-bold flex items-center justify-center border border-slate-200 w-[30px]">{p.id}</p>
                 <p className='w-1/2 border-slate-200 border'>{p.nombreProducto}</p>
                 <div className='border  border-slate-200 w-1/2 flex'>
-                  {/*<p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p>*/}
+                  <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p>
                   <p className='w-1/2 '>{'$ ' + p.precioPublico}</p>
                 </div>
               </div>

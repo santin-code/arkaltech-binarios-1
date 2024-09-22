@@ -5,7 +5,7 @@ export default function Precios() {
   const precios = [{
     id: id++,
     nombreProducto: 'Silicon Liquido Pelican 100ML (pieza) ',
-    precioTienda: 18.28,
+    precioTienda: 19.44,
     precioPublico: 22,
   }, {
     id: id++,
@@ -54,29 +54,49 @@ export default function Precios() {
     precioPublico:'12 (pieza)',
   },{
     id: id++,
+    nombreProducto: 'MARC DUO NEG MCKIE c/12 (plumon zebra doble punta permanente )',
+    precioTienda: '254.02',
+    precioPublico:'23 (pieza)',
+  },{
+    id: id++,
     nombreProducto: 'Goma Copito [caja (20pz)] ',
     precioTienda: '46',
     precioPublico:'4 (pieza)',
   },{
     id: id++,
-    nombreProducto: 'MARC DUO NEG MCKIE c/12 (plumon zebra doble punta permanente)',
-    precioTienda: '254.02',
-    precioPublico:'23 (pieza)',
+    nombreProducto: 'Goma "CHICA" pelikan (pelikid)',
+    precioTienda: '60.9 (bote c/30)',
+    precioPublico:'3 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Goma Migajon M20 ',
     precioTienda: '89.73',
+    precioPublico:'6 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Sacapuntas c/ goma',
+    precioTienda: '121.91 (bote c/36)',
     precioPublico:'5 (pieza)',
   },{
     id: id++,
-    nombreProducto: 'Folder Costilla c/4',
-    precioTienda: '38.89',
+    nombreProducto: 'Folder costilla',
+    precioTienda: '41.37 PQ c/5',
     precioPublico:'12 (pieza)',
   },{
     id: id++,
+    nombreProducto: 'Folder bolsa de "PAPEL" ( sobre bolsa  )',
+    precioTienda: '24.98 PQ c/5', 
+    precioPublico:'7 (pieza)',
+  },{
+    id: id++,
     nombreProducto: 'Marcador Pelikan (Colorella 10 pzs) ',
-    precioTienda: '85.05',
-    precioPublico:'10 (pieza)',
+    precioTienda: '90.48',
+    precioPublico:'12 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Marcador MAGISTRAL (PIZARRON) ',
+    precioTienda: '219.41 (caja c/12)',
+    precioPublico:'20 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Plumon Pelikan (Markana Twist 24 pzs) ',
@@ -87,6 +107,31 @@ export default function Precios() {
     nombreProducto: 'Plumon Aquarelo Junior (AZOR 24 pzs) ',
     precioTienda: '98.10',
     precioPublico:'115 paquete',
+  },{
+    id: id++,
+    nombreProducto: 'Marcatexto Sharpie pq c/12',
+    precioTienda: '142.42',
+    precioPublico:'15 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Transportador 12cm (chico)',
+    precioTienda: '125.65 Pq c/25',
+    precioPublico:'7 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Transportador 15cm (grande)',
+    precioTienda: '202.29 Pq c/25',
+    precioPublico:'11 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Regla de plastico FLEXIBLE',
+    precioTienda: '12.11',
+    precioPublico:'16 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Regla de plastico NORMAL 30cm',
+    precioTienda: '5.51',
+    precioPublico:'8 pieza',
   },{
     id: id++,
     nombreProducto: 'Silicon delgado 1kg (barras)',
@@ -144,6 +189,11 @@ export default function Precios() {
     precioPublico:'14 (pieza)',
   },{
     id: id++,
+    nombreProducto: 'Plastilina 1 Barra 180g Marqueta Smarty',
+    precioTienda: '8.46',
+    precioPublico:'12 (pieza)',
+  },{
+    id: id++,
     nombreProducto: 'Bicolor Hex delgado c/50',
     precioTienda: '149.87',
     precioPublico:'5 (pieza)',
@@ -154,11 +204,6 @@ export default function Precios() {
     precioPublico:'5 (pieza)',
   },{
     id: id++,
-    nombreProducto: 'Tijera Soft 21cm ',
-    precioTienda: '51.53',
-    precioPublico:'57 (pieza)',
-  },{
-    id: id++,
     nombreProducto: 'Tijera Smarty Pekes" ',
     precioTienda: '9.5',
     precioPublico:'12 (pieza)',
@@ -167,6 +212,16 @@ export default function Precios() {
     nombreProducto: 'Tijera Basic Pro 5" ',
     precioTienda: '11.61',
     precioPublico:'15 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Tijera "MEDIANA" Soft 17cm ',
+    precioTienda: '28.76',
+    precioPublico:'32 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Tijera "GRANDE" Soft 21cm ',
+    precioTienda: '51.53',
+    precioPublico:'57 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Pastas p/engargolar lisa',
@@ -194,9 +249,79 @@ export default function Precios() {
     precioPublico:'12 (pieza)',
   },{
     id: id++,
+    nombreProducto: 'Adhesiva Diurex .12 x 10 (chico)',
+    precioTienda: '72.97',
+    precioPublico:'3 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Cinta canela (chica.48mmx50m)',
+    precioTienda: '78.6',
+    precioPublico:'6 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Cinta transparente [canela] (chica.48mmx50m)',
+    precioTienda: '78.6',
+    precioPublico:'6 (pieza)',
+  },{
+    id: id++,
     nombreProducto: 'Lapicero de gel c/4  (boligrafo stick fash) ',
     precioTienda: '27.6',
     precioPublico:'32 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: `Corrector "BROCHA" SMART office`,
+    precioTienda: '88.8 (caja)',
+    precioPublico:'12 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: `Corrector "PLUMA" SMART office`,
+    precioTienda: '152.38 (caja)',
+    precioPublico:'17 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Goma "CHICA" pelikan (pelikid)',
+    precioTienda: '60.9 (bote c/30)',
+    precioPublico:'3 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Hoja isometrica',
+    precioTienda: '21.2 block',
+    precioPublico:'1 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Hoja albanene',
+    precioTienda: '41.56',
+    precioPublico:'2 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Lapiz Maped Pastel',
+    precioTienda: '252.19',
+    precioPublico:'5 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Libro para colorear (iluminar)',
+    precioTienda: '5.33',
+    precioPublico:'8 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Acuarela pelikan 12col',
+    precioTienda: '12.40',
+    precioPublico:'15 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Papel bond (blanco | cuadro)',
+    precioTienda: '(1.78 | 2.72)',
+    precioPublico:'4 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Foamy (normal)',
+    precioTienda: '41.62 Pq c/24',
+    precioPublico:'3 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'Foamy con diamantina (adiamantado, endiamantado)',
+    precioTienda: '24.10 Pq c/5',
+    precioPublico:'6 pieza',
   }
   ]
   return (
@@ -206,7 +331,7 @@ export default function Precios() {
           {/* corregir el width y height del titulo  "producto" */}
           <p className='w-[13rem] md:w-[30rem] border-slate-200 border'>Producto</p>
           <div className='border  border-slate-200 w-1/2 flex'>
-            {/* <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p> */}
+            <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p>
             <p className='w-1/2 '>Precio Publico</p>
           </div>
         </div>
@@ -217,7 +342,7 @@ export default function Precios() {
                 <p className=" font-bold flex items-center justify-center border border-slate-200 w-[30px]">{p.id}</p>
                 <p className='w-1/2 border-slate-200 border'>{p.nombreProducto}</p>
                 <div className='border  border-slate-200 w-1/2 flex'>
-                  {/*<p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p>*/}
+                  <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p>
                   <p className='w-1/2 '>{'$ ' + p.precioPublico}</p>
                 </div>
               </div>
