@@ -331,7 +331,7 @@ export default function Precios() {
           {/* corregir el width y height del titulo  "producto" */}
           <p className='w-[13rem] md:w-[30rem] border-slate-200 border'>Producto</p>
           <div className='border  border-slate-200 w-1/2 flex'>
-            <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p>
+            {/* <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p> */}
             <p className='w-1/2 '>Precio Publico</p>
           </div>
         </div>
@@ -342,7 +342,7 @@ export default function Precios() {
                 <p className=" font-bold flex items-center justify-center border border-slate-200 w-[30px]">{p.id}</p>
                 <p className='w-1/2 border-slate-200 border'>{p.nombreProducto}</p>
                 <div className='border  border-slate-200 w-1/2 flex'>
-                  <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p>
+                  {/* <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p> */}
                   <p className='w-1/2 '>{'$ ' + p.precioPublico}</p>
                 </div>
               </div>
