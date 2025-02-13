@@ -4,14 +4,14 @@ export default function Precios() {
   let id = 1;
   const precios = [{
     id: id++,
-    nombreProducto: 'Silicon Liquido Pelican 100ML (pieza) ',
-    precioTienda: 19.44,
-    precioPublico: 22,
-  }, {
-    id: id++,
     nombreProducto: 'Silicon Liquido Pelican 250ML (pieza) ',
     precioTienda: 39.41,
     precioPublico: 44,
+  },{
+    id: id++,
+    nombreProducto: 'Silicon Liquido Pelican 100ML (pieza) ',
+    precioTienda: 19.44,
+    precioPublico: 22,
   },{
     id: id++,
     nombreProducto: 'Ficha De Trabajo (5x8 pulgadas) ',
