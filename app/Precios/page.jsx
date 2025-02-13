@@ -130,8 +130,8 @@ export default function Precios() {
   },{
     id: id++,
     nombreProducto: 'Regla de plastico NORMAL 30cm',
-    precioTienda: '5.51',
-    precioPublico:'8 pieza',
+    precioTienda: '6.66',
+    precioPublico:'9 pieza',
   },{
     id: id++,
     nombreProducto: 'Silicon delgado 1kg (barras)',
@@ -146,7 +146,7 @@ export default function Precios() {
     id: id++,
     nombreProducto: 'Cartulina de color ',
     precioTienda: 'entre 6.08 & 1.82',
-    precioPublico:'7 (pieza)',
+    precioPublico:'5 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Folder Oficio Crema c/100',
@@ -162,6 +162,21 @@ export default function Precios() {
     nombreProducto: 'PEG ADH DIXON 8G c/30',
     precioTienda: '185.19',
     precioPublico:'9 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'bully (liquido) 110g',
+    precioTienda: '17.06',
+    precioPublico:'22',
+  },{
+    id: id++,
+    nombreProducto: 'bully (liquido) 55g',
+    precioTienda: '12.50',
+    precioPublico:'16',
+  },{
+    id: id++,
+    nombreProducto: 'bully (liquido) 35g',
+    precioTienda: '8.40',
+    precioPublico:'11',
   },{
     id: id++,
     nombreProducto: 'Mica Protectora de Hojas (protector de hojas)',
@@ -181,7 +196,7 @@ export default function Precios() {
     id: id++,
     nombreProducto: 'Papel Cascaron 1/4',
     precioTienda: '9.10',
-    precioPublico:'12 (pieza)',
+    precioPublico:'13 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Plastilina c/10 barras ',
@@ -247,6 +262,11 @@ export default function Precios() {
     nombreProducto: 'Adhesiva Diurex .18 x 33',
     precioTienda: '8.29',
     precioPublico:'12 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Adhesiva Diurex .12 x 33 (delgado)',
+    precioTienda: '5.71',
+    precioPublico:'8 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Adhesiva Diurex .12 x 10 (chico)',
