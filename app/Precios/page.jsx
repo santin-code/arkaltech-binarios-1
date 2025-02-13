@@ -5,13 +5,18 @@ export default function Precios() {
   const precios = [{
     id: id++,
     nombreProducto: 'Silicon Liquido Pelican 250ML (pieza) ',
-    precioTienda: 39.41,
-    precioPublico: 44,
+    precioTienda: 43.40,
+    precioPublico: 49,
   },{
     id: id++,
     nombreProducto: 'Silicon Liquido Pelican 100ML (pieza) ',
-    precioTienda: 19.44,
-    precioPublico: 22,
+    precioTienda: 22.44,
+    precioPublico: 27,
+  },{
+    id: id++,
+    nombreProducto: 'Silicon Liquido Pelican 60ML (pieza) ',
+    precioTienda: 12.18,
+    precioPublico: 16,
   },{
     id: id++,
     nombreProducto: 'Ficha De Trabajo (5x8 pulgadas) ',
@@ -342,6 +347,21 @@ export default function Precios() {
     nombreProducto: 'Foamy con diamantina (adiamantado, endiamantado)',
     precioTienda: '24.10 Pq c/5',
     precioPublico:'6 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'pincel #5',
+    precioTienda: '3.27',
+    precioPublico:'5 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'pincel #1',
+    precioTienda: '2.22',
+    precioPublico:'3 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'pintura vinci',
+    precioTienda: '8.29',
+    precioPublico:'11 pieza',
   }
   ]
   return (
