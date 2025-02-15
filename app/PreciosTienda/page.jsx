@@ -371,7 +371,7 @@ export default function Precios() {
           {/* corregir el width y height del titulo  "producto" */}
           <p className='w-[13rem] md:w-[30rem] border-slate-200 border'>Producto</p>
           <div className='border  border-slate-200 w-1/2 flex'>
-            {/* <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p> */}
+            { <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p> }
             <p className='w-1/2 '>Precio Publico</p>
           </div>
         </div>
