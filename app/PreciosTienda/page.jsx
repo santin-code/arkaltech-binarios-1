@@ -382,7 +382,7 @@ export default function Precios() {
                 <p className=" font-bold flex items-center justify-center border border-slate-200 w-[30px]">{p.id}</p>
                 <p className='w-1/2 border-slate-200 border'>{p.nombreProducto}</p>
                 <div className='border  border-slate-200 w-1/2 flex'>
-                  {/* <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p> */}
+                  { <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p>}
                   <p className='w-1/2 '>{'$ ' + p.precioPublico}</p>
                 </div>
               </div>
