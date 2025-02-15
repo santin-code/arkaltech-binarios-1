@@ -4,14 +4,19 @@ export default function Precios() {
   let id = 1;
   const precios = [{
     id: id++,
-    nombreProducto: 'Silicon Liquido Pelican 100ML (pieza) ',
-    precioTienda: 19.44,
-    precioPublico: 22,
-  }, {
-    id: id++,
     nombreProducto: 'Silicon Liquido Pelican 250ML (pieza) ',
-    precioTienda: 39.41,
-    precioPublico: 44,
+    precioTienda: 43.40,
+    precioPublico: 49,
+  },{
+    id: id++,
+    nombreProducto: 'Silicon Liquido Pelican 100ML (pieza) ',
+    precioTienda: 22.44,
+    precioPublico: 27,
+  },{
+    id: id++,
+    nombreProducto: 'Silicon Liquido Pelican 60ML (pieza) ',
+    precioTienda: 12.18,
+    precioPublico: 16,
   },{
     id: id++,
     nombreProducto: 'Ficha De Trabajo (5x8 pulgadas) ',
@@ -130,8 +135,8 @@ export default function Precios() {
   },{
     id: id++,
     nombreProducto: 'Regla de plastico NORMAL 30cm',
-    precioTienda: '5.51',
-    precioPublico:'8 pieza',
+    precioTienda: '6.66',
+    precioPublico:'9 pieza',
   },{
     id: id++,
     nombreProducto: 'Silicon delgado 1kg (barras)',
@@ -146,7 +151,7 @@ export default function Precios() {
     id: id++,
     nombreProducto: 'Cartulina de color ',
     precioTienda: 'entre 6.08 & 1.82',
-    precioPublico:'7 (pieza)',
+    precioPublico:'5 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Folder Oficio Crema c/100',
@@ -162,6 +167,21 @@ export default function Precios() {
     nombreProducto: 'PEG ADH DIXON 8G c/30',
     precioTienda: '185.19',
     precioPublico:'9 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'bully (liquido) 110g',
+    precioTienda: '17.06',
+    precioPublico:'22',
+  },{
+    id: id++,
+    nombreProducto: 'bully (liquido) 55g',
+    precioTienda: '12.50',
+    precioPublico:'16',
+  },{
+    id: id++,
+    nombreProducto: 'bully (liquido) 35g',
+    precioTienda: '8.40',
+    precioPublico:'11',
   },{
     id: id++,
     nombreProducto: 'Mica Protectora de Hojas (protector de hojas)',
@@ -181,7 +201,7 @@ export default function Precios() {
     id: id++,
     nombreProducto: 'Papel Cascaron 1/4',
     precioTienda: '9.10',
-    precioPublico:'12 (pieza)',
+    precioPublico:'13 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Plastilina c/10 barras ',
@@ -247,6 +267,11 @@ export default function Precios() {
     nombreProducto: 'Adhesiva Diurex .18 x 33',
     precioTienda: '8.29',
     precioPublico:'12 (pieza)',
+  },{
+    id: id++,
+    nombreProducto: 'Adhesiva Diurex .12 x 33 (delgado)',
+    precioTienda: '5.71',
+    precioPublico:'8 (pieza)',
   },{
     id: id++,
     nombreProducto: 'Adhesiva Diurex .12 x 10 (chico)',
@@ -322,6 +347,21 @@ export default function Precios() {
     nombreProducto: 'Foamy con diamantina (adiamantado, endiamantado)',
     precioTienda: '24.10 Pq c/5',
     precioPublico:'6 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'pincel #5',
+    precioTienda: '3.27',
+    precioPublico:'5 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'pincel #1',
+    precioTienda: '2.22',
+    precioPublico:'3 pieza',
+  },{
+    id: id++,
+    nombreProducto: 'pintura vinci',
+    precioTienda: '8.29',
+    precioPublico:'11 pieza',
   }
   ]
   return (
@@ -331,7 +371,7 @@ export default function Precios() {
           {/* corregir el width y height del titulo  "producto" */}
           <p className='w-[13rem] md:w-[30rem] border-slate-200 border'>Producto</p>
           <div className='border  border-slate-200 w-1/2 flex'>
-            <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p>
+            {/* <p className='w-1/2 border-r border-slate-200'>Precio Tienda</p> */}
             <p className='w-1/2 '>Precio Publico</p>
           </div>
         </div>
@@ -342,7 +382,7 @@ export default function Precios() {
                 <p className=" font-bold flex items-center justify-center border border-slate-200 w-[30px]">{p.id}</p>
                 <p className='w-1/2 border-slate-200 border'>{p.nombreProducto}</p>
                 <div className='border  border-slate-200 w-1/2 flex'>
-                  <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p>
+                  {/* <p className='w-1/2 border-r border-slate-200'>{'$ ' + p.precioTienda}</p> */}
                   <p className='w-1/2 '>{'$ ' + p.precioPublico}</p>
                 </div>
               </div>
